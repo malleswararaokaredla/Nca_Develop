@@ -1,0 +1,8 @@
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\bin\Debug\netcoreapp2.2\Nca.core.Dtos.deps.json
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\bin\Debug\netcoreapp2.2\Nca.core.Dtos.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\bin\Debug\netcoreapp2.2\Nca.core.Dtos.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\obj\Debug\netcoreapp2.2\Nca.core.Dtos.csproj.CoreCompileInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\obj\Debug\netcoreapp2.2\Nca.core.Dtos.AssemblyInfoInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\obj\Debug\netcoreapp2.2\Nca.core.Dtos.AssemblyInfo.cs
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\obj\Debug\netcoreapp2.2\Nca.core.Dtos.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Dtos\obj\Debug\netcoreapp2.2\Nca.core.Dtos.pdb

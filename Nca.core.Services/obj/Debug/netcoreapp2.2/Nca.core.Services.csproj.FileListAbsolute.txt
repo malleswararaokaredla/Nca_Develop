@@ -1,0 +1,14 @@
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.csprojAssemblyReference.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.csproj.CoreCompileInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.AssemblyInfoInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.AssemblyInfo.cs
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.core.Services.deps.json
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.core.Services.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.core.Services.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.Core.DataAccess.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.core.Dtos.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.core.Dtos.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\bin\Debug\netcoreapp2.2\Nca.Core.DataAccess.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.csproj.CopyComplete
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.core.Services\obj\Debug\netcoreapp2.2\Nca.core.Services.pdb

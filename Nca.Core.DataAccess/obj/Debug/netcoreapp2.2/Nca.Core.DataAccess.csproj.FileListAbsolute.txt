@@ -1,0 +1,16 @@
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Nca.Core.DataAccess.deps.json
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Nca.Core.DataAccess.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Nca.Core.DataAccess.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Nca.core.Dtos.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Nca.core.Dtos.pdb
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.xml
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.csprojAssemblyReference.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.csproj.CoreCompileInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.AssemblyInfoInputs.cache
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.AssemblyInfo.cs
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.csproj.CopyComplete
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.dll
+D:\Trianing\mallesh\Nca\NCA_Dev\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.pdb

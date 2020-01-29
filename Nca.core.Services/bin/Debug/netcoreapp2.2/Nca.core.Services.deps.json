@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Nca.core.Services/1.0.0": {
+        "dependencies": {
+          "Nca.core.Dtos": "1.0.0",
+          "Nca.Core.DataAccess": "1.0.0.0"
+        },
+        "runtime": {
+          "Nca.core.Services.dll": {}
+        }
+      },
+      "Nca.core.Dtos/1.0.0": {
+        "runtime": {
+          "Nca.core.Dtos.dll": {}
+        }
+      },
+      "Nca.Core.DataAccess/1.0.0.0": {
+        "runtime": {
+          "Nca.Core.DataAccess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nca.core.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nca.core.Dtos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nca.Core.DataAccess/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,32 @@
+2020-01-29 13:49:46.3818 INFO User profile is available. Using 'C:\Users\malleswararao.k\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2020-01-29 13:49:47.4841 INFO Request starting HTTP/1.1 GET https://localhost:44376/api/values   
+2020-01-29 13:49:47.5536 INFO Executing endpoint 'NcaApi.Controllers.ValuesController.Get (NcaApi)' 
+2020-01-29 13:49:47.5876 INFO Route matched with {action = "Get", controller = "Values"}. Executing action NcaApi.Controllers.ValuesController.Get (NcaApi) 
+2020-01-29 13:49:47.5991 INFO Executing action method NcaApi.Controllers.ValuesController.Get (NcaApi) - Validation state: Valid 
+2020-01-29 13:49:47.5991 INFO Executed action method NcaApi.Controllers.ValuesController.Get (NcaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5028ms. 
+2020-01-29 13:49:47.6277 INFO Executing ObjectResult, writing value of type 'System.String[]'. 
+2020-01-29 13:49:47.7120 INFO Executed action NcaApi.Controllers.ValuesController.Get (NcaApi) in 118.6703ms 
+2020-01-29 13:49:47.7200 INFO Executed endpoint 'NcaApi.Controllers.ValuesController.Get (NcaApi)' 
+2020-01-29 13:49:47.7200 INFO Request finished in 241.9723ms 200 application/json; charset=utf-8 
+2020-01-29 13:49:47.7681 INFO Request starting HTTP/1.1 GET https://localhost:44376/favicon.ico   
+2020-01-29 13:49:47.7878 INFO Request finished in 19.714ms 404  
+2020-01-29 13:49:52.7042 INFO Request starting HTTP/1.1 GET https://localhost:44376/api/nca/GetClientDetails/34254570/tek/N   
+2020-01-29 13:49:52.7102 INFO Executing endpoint 'NcaApi.Controllers.NcaController.GetClientDetails (NcaApi)' 
+2020-01-29 13:49:52.7361 INFO Route matched with {action = "GetClientDetails", controller = "Nca"}. Executing action NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) 
+2020-01-29 13:49:52.7569 INFO Executing action method NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) with arguments (34254570, tek, N) - Validation state: Valid 
+2020-01-29 13:49:52.7675 INFO 1/29/2020 1:49:52 PM - Get Invoked 
+2020-01-29 13:49:55.3040 INFO Executed action method NcaApi.Controllers.NcaController.GetClientDetails (NcaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2543.0894ms. 
+2020-01-29 13:49:55.3144 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Nca.core.Dtos.HotclientInfo_Dto, Nca.core.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-01-29 13:49:55.3426 INFO Executed action NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) in 2602.1392ms 
+2020-01-29 13:49:55.3476 INFO Executed endpoint 'NcaApi.Controllers.NcaController.GetClientDetails (NcaApi)' 
+2020-01-29 13:49:55.3476 INFO Request finished in 2648.2762ms 200 application/json; charset=utf-8 
+2020-01-29 13:50:10.9835 INFO Request starting HTTP/1.1 GET https://localhost:44376/api/nca/GetClientDetails/1160119/tek/N   
+2020-01-29 13:50:11.0165 INFO Executing endpoint 'NcaApi.Controllers.NcaController.GetClientDetails (NcaApi)' 
+2020-01-29 13:50:11.0260 INFO Route matched with {action = "GetClientDetails", controller = "Nca"}. Executing action NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) 
+2020-01-29 13:50:11.0260 INFO Executing action method NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) with arguments (1160119, tek, N) - Validation state: Valid 
+2020-01-29 13:50:11.0375 INFO 1/29/2020 1:50:11 PM - Get Invoked 
+2020-01-29 13:50:11.3744 INFO Executed action method NcaApi.Controllers.NcaController.GetClientDetails (NcaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 336.9568ms. 
+2020-01-29 13:50:11.3797 INFO Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Nca.core.Dtos.HotclientInfo_Dto, Nca.core.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2020-01-29 13:50:11.4073 INFO Executed action NcaApi.Controllers.NcaController.GetClientDetails (NcaApi) in 377.8558ms 
+2020-01-29 13:50:11.4073 INFO Executed endpoint 'NcaApi.Controllers.NcaController.GetClientDetails (NcaApi)' 
+2020-01-29 13:50:11.4073 INFO Request finished in 434.1191ms 200 application/json; charset=utf-8 

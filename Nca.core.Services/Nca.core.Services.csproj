@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nca.core.Dtos\Nca.core.Dtos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Nca.Core.DataAccess">
+      <HintPath>..\Nca.Core.DataAccess\obj\Debug\netcoreapp2.2\Nca.Core.DataAccess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
