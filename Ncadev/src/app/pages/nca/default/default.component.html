@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header> {{clientHeader}}&nbsp;&nbsp;<span class='cHeader'
+        class='cHeader' *ngIf="disableHotdata">{{dscid}} &nbsp;&nbsp;{{clientName}}</span>
+        &nbsp;&nbsp;<span class='cHeader' *ngIf="disableHotdata">{{clientStatusName}}</span>
+        &nbsp;&nbsp;<span class='cHeader' *ngIf="disableHotdata">{{statusChangeDate}}</span>
+         <div *ngIf="disableHotdata" style="float: right">   
+      <img src="/assets/images/refresh-outline.png" class="ref" alt="User Icon" (click)='refload()' />  
+      <img src="/assets/images/skip-back-outline.png" alt="User Icon" class="bak" (click)='backload()'/> 
+     </div>
+      </nb-card-header>
+   
+    </nb-card>
+  </div>
+</div>  
+<div class="row" *ngIf="disable">
+  <div class="col-lg-10">
+ <ngx-clientlist ></ngx-clientlist>
+  </div>
+
+
+
+  <div class="col-lg-2">
+    <!-- <nb-card [nbSpinner]="h_loading" nbSpinnerStatus="default">
+      <nb-card-header> Hot Clients</nb-card-header>
+      <nb-card-body>
+        <ng2-smart-table [settings]="_hotClients" [source]="hotClientData" >
+        </ng2-smart-table>
+      </nb-card-body>
+    </nb-card> -->
+
+   <ngx-hotclients></ngx-hotclients>
+  </div>
+</div>
+
+<div class="row" *ngIf="disableHotdata" [nbSpinner]="loading">
+  <div class="col-lg-12">
+    <ngx-hot-client-info [loaddata]="loaddata" ></ngx-hot-client-info>
+  </div>
+</div>

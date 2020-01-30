@@ -1,0 +1,26 @@
+export class Clients_Data {
+    Id:number;
+    DSCid:number;
+    Email:string;
+    ClientId:string;
+    FirstName:string;
+    LastName:string;
+    HomePhone:string;
+    State:string;
+    Timezone:string;
+    AssignedNegotiatorid:string;
+    AssignedAgentid:string;
+    ClientStatusName:string;
+    NegotiatorName:string;
+    DSCAgentName:string;
+    StatusDate:string;
+    LastCallDate:string;
+    ClientStatus:number;
+    CreatedOn:string;
+    Calls:number;
+    Tags:string;
+    Creditors:number;
+    WorkPhone:string;
+    OtherPhone:string;
+    TimezoneSortOrder:string;
+}

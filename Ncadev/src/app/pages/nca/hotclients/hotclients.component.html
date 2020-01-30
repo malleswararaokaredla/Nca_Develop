@@ -1,0 +1,17 @@
+<nb-card size="giant" [nbSpinner]="h_loading" nbSpinnerStatus="default" class="htable">
+  <!--[ngClass]="{htable:hotClientData.length>7}" <nb-tabset fullWidth>
+    <nb-tab tabTitle=""> -->
+      <nb-card-header style="text-align: center;">
+        HotClients
+      </nb-card-header>
+      <nb-list>
+        <nb-list-item class="contact" *ngFor="let h of hotClientData">
+         <nb-user [name]="h.clientName" [title]="h.dscClientId" size="large" style="cursor: pointer;" (click)="hotClientsData(h)"></nb-user>
+          <!-- <span class="caption">{{ c.time | date: 'shortTime' }}</span> -->
+        </nb-list-item>
+      </nb-list>
+     
+    <!-- </nb-tab>
+
+  </nb-tabset> -->
+</nb-card>

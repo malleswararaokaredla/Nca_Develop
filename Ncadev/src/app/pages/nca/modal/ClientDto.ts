@@ -1,0 +1,21 @@
+export class ClientDto {
+    client_status:number;
+    days_type:number;
+    dsc_agent:string;
+    UserId:string;
+    RoleId:number;
+    DSCId:number;
+    DSCClientId:string;
+    FirstName:string;
+    LastName:string;
+    HomePhone:string;
+    Email:string;
+    State:string;
+    NegotiatorName:string;
+    DSCAgentName:string;
+    SortColumn:string;
+    SortDirection:string;
+    PageNo:number;
+    RowCountPerPage:number;
+    Timezone:string;
+}

@@ -1,0 +1,14 @@
+:host /deep/ ng2-smart-table { 
+    font-size: 16px; 
+}
+
+
+  .nb-theme-default :host /deep/ ng2-smart-table table tr td{
+    padding: 0.3rem 1.25rem;
+  }
+
+ 
+  .clienttable{
+    overflow: scroll; 
+    height: 708px;
+  }

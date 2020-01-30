@@ -1,0 +1,280 @@
+<nb-card>
+  <nb-menu [items]="items">
+  </nb-menu>
+
+ </nb-card>
+
+<div class="row clientinfo" *ngFor="let loan of loaddata" >
+  <div class="col-md-6">
+    <nb-card>
+      <nb-card-header>Client Info</nb-card-header>
+      <nb-card-body>
+        <form class="form-horizontal">
+          <div class="form-group row" >
+            <label for="firstname" class="label col-sm-3 form-control-label">Client:</label>
+            <div class="col-sm-9 textbg">
+              {{loan.id}}
+            </div>
+          </div>
+
+          <!-- <div class="form-group row">
+           
+            <div class="col-sm-12" style="background-color:#FAFAFA;text-align: center;">
+             
+            </div>
+          </div> -->
+         
+          <div class="form-group row">
+            <label for="firstname" class="label col-sm-3 form-control-label">First Name:</label>
+            <div class="col-sm-9 textbg">
+             {{loan.firstName}}
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="lastname" class="label col-sm-3 form-control-label">Last Name:</label>
+            <div class="col-sm-9 textbg">
+              {{loan.lastName}}
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="address" class="label col-sm-3 form-control-label">Address:</label>
+            <div class="col-sm-9 textbg">
+              {{loan.address}}
+            </div>
+            </div>
+            <div class="form-group row">
+              <label for="City" class="label col-sm-3 form-control-label">City:</label>
+              <div class="col-sm-9 textbg">
+                {{loan.city}}
+              </div>
+            </div>
+              <div class="form-group row">
+                <label for="state" class="label col-sm-3 form-control-label">State:</label>
+                <div class="col-sm-9 textbg">
+                  {{loan.state}}
+                </div>
+              </div>
+                <div class="form-group row">
+                  <label for="zip" class="label col-sm-3 form-control-label">Zip:</label>
+                  <div class="col-sm-9 textbg">
+                    {{loan.zip}}
+                  </div>
+                </div>
+                  <div class="form-group row">
+                    <label for="dob" class="label col-sm-3 form-control-label">DOB:</label>
+                    <div class="col-sm-9 textbg">
+                      25/06/1992
+                    </div>
+                  </div>
+                    <div class="form-group row">
+                      <label for="SSN" class="label col-sm-3 form-control-label">	SSN:</label>
+                      <div class="col-sm-9 textbg">
+                        xyz
+                      </div>
+                    </div>
+                      <div class="form-group row">
+                        <label for="phone1" class="label col-sm-3 form-control-label">Phone 1:</label>
+                        <div class="col-sm-9 textbg">
+                          {{loan.homePhone}}
+                        </div>
+                      </div>
+                        <div class="form-group row">
+                          <label for="phone2" class="label col-sm-3 form-control-label">Phone 2:</label>
+                          <div class="col-sm-9 textbg">
+                            {{loan.workPhone}}
+                          </div>
+                        </div>
+                          <div class="form-group row">
+                            <label for="phone3" class="label col-sm-3 form-control-label">Phone 3:</label>
+                            <div class="col-sm-9 textbg">
+                              {{loan.otherPhone}}
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="emailaddress" class="label col-sm-3 form-control-label">Email Address:</label>
+                            <div class="col-sm-9 textbg">
+                             malleswararao.k@symbiosystech.com
+                            </div>
+                          </div>
+                          
+                          <div class="form-group row">
+                            <label for="programstart" class="label col-sm-3 form-control-label">Program Start:</label>
+                            <div class="col-sm-9 textbg">
+                             
+                            </div>
+                          </div>
+                            <div class="form-group row">
+                              <label for="loanduration" class="label col-sm-3 form-control-label">Estimated Loan Duration:</label>
+                              <div class="col-sm-9 textbg">
+                               
+                              </div>
+                            </div>
+                              <div class="form-group row">
+                                <label for="activestate" class="label col-sm-3 form-control-label">Active Settlements:</label>
+                                <div class="col-sm-9 textbg">
+                                
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <label for="sms" class="label col-sm-3 form-control-label">SMS Opt In:</label>
+                                <div class="col-sm-9 textbg">
+                                 
+                                </div>
+                              </div>
+
+                              <div class="form-group row">
+                                <label for="lead" class="label col-sm-3 form-control-label">Lead Source:</label>
+                                <div class="col-sm-9 textbg">
+                                 
+                                </div>
+                              </div>
+          
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-md-6">
+    <nb-card>
+      <nb-card-header>Co-Client Info</nb-card-header>
+      <nb-card-body>
+        <form class="form-horizontal">
+       
+          <div class="form-group row">
+            <label for="firstname" class="label col-sm-3 form-control-label">Negotiator: {{assignedNegotiatorName}}</label>
+            <label class="col-sm-9 textbg">
+              DSC Agent:{{assignedAgentName}}  
+            </label>
+          </div>
+
+          <!-- <div class="form-group row" style="background-color:#FAFAFA;text-align: center;">            
+            <div class="col-sm-12 ">
+              
+            </div>
+          </div> -->
+
+          
+
+          <div class="form-group row">
+            <label for="firstname" class="label col-sm-3 form-control-label">First Name:</label>
+            <div class="col-sm-9 textbg">
+             {{loan.coClientFirstName}}
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="lastname" class="label col-sm-3 form-control-label">Last Name:</label>
+            <div class="col-sm-9 textbg">
+             {{loan.coClientLastName}}
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="address" class="label col-sm-3 form-control-label">Address:</label>
+            <div class="col-sm-9 textbg">
+             {{loan.coClientAddress}}
+            </div>
+            </div>
+            <div class="form-group row">
+              <label for="City" class="label col-sm-3 form-control-label">City:</label>
+              <div class="col-sm-9 textbg">
+               {{loan.coClientCity}}
+              </div>
+            </div>
+              <div class="form-group row">
+                <label for="state" class="label col-sm-3 form-control-label">State:</label>
+                <div class="col-sm-9 textbg">
+                 {{loan.coClientState}}
+                </div>
+              </div>
+                <div class="form-group row">
+                  <label for="zip" class="label col-sm-3 form-control-label">Zip:</label>
+                  <div class="col-sm-9 textbg">
+                   {{loan.coClientZip}}
+                  </div>
+                </div>
+                  <div class="form-group row">
+                    <label for="dob" class="label col-sm-3 form-control-label">DOB:</label>
+                    <div class="col-sm-9 textbg">
+                     {{loan.coClientDOB}}
+                    </div>
+                  </div>
+                    <div class="form-group row">
+                      <label for="SSN" class="label col-sm-3 form-control-label">	SSN:</label>
+                      <div class="col-sm-9 textbg">
+                       {{loan.coClientSSN}}
+                      </div>
+                    </div>
+                      <div class="form-group row">
+                        <label for="phone1" class="label col-sm-3 form-control-label">Phone 1:</label>
+                        <div class="col-sm-9 textbg">
+                         {{loan.coClientHomePhone}}
+                        </div>
+                      </div>
+                        <div class="form-group row">
+                          <label for="phone2" class="label col-sm-3 form-control-label">Phone 2:</label>
+                          <div class="col-sm-9 textbg">
+                           {{loan.coClientWorkPhone}}
+                          </div>
+                        </div>
+                          <div class="form-group row">
+                            <label for="phone3" class="label col-sm-3 form-control-label">Phone 3:</label>
+                            <div class="col-sm-9 textbg">
+                             {{loan.coClientOtherPhone}}
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="emailaddress" class="label col-sm-3 form-control-label">Email Address:</label>
+                            <div class="col-sm-9 textbg">
+                             {{loan.coClientEmail}}
+                            </div>
+                          </div>
+
+                          <div class="form-group row">
+                            <label for="loanamount" class="label col-sm-3 form-control-label">Estimated Loan Amount:</label>
+                            <div class="col-sm-9 textbg">
+                             
+                            </div>
+                          </div>
+                            <div class="form-group row" style="display: none;">
+                              <label for="loanduration" class="label col-sm-3 form-control-label">xxx</label>
+                              <div class="col-sm-9 textbg">
+                               
+                              </div>
+                            </div>
+                              <div class="form-group row" style="display: none;">
+                                <label for="activestate" class="label col-sm-3 form-control-label">yyy</label>
+                                <div class="col-sm-9 textbg">
+                                 
+                                </div> 
+                              </div>
+                              <div class="form-group row">
+                                <label for="smsopt" class="label col-sm-3 form-control-label">	SMS Opt In Phone #:</label>
+                                <div class="col-sm-9 textbg">
+                                 
+                                </div>
+                              </div>
+
+                              <div class="form-group row">
+                                <label for="oldreserv" class="label col-sm-3 form-control-label">Old Reservation Code:</label>
+                                <div class="col-sm-9 textbg">
+                                 
+                                </div>
+                              </div>
+                          
+          
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+  <div class="col-md-12">
+  
+    <button type="submit" nbButton status="primary" >Personal Loan Summary</button>
+  
+  </div>
+  <!-- <div class="col-md-12">
+    <label   style="float: left;">callog</label >
+    <button type="submit" nbButton status="primary"  style="float: right;">Call log</button>
+  </div> -->
+  
+</div>

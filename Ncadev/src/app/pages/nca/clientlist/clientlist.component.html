@@ -1,0 +1,90 @@
+<nb-card [nbSpinner]="loading" nbSpinnerStatus="primary" [ngClass]="{clienttable:_clientsInfo.length>6}"
+  class="inline-form-card">
+  <nb-card-header>
+    Client List
+    <div style="float: right;">
+      <nb-checkbox [value]="true" style="margin-right: -35px;"></nb-checkbox>
+      Search in Client Status:<nb-select>
+        <nb-option *ngFor="let c of Clientstatus" [value]="c.id"> {{ c.value }}</nb-option>
+      </nb-select>&nbsp;Time Period:<nb-select>
+        <nb-option *ngFor="let T of Timeperiod" [value]="T.id"> {{ T.value }}</nb-option>
+      </nb-select>
+
+    </div>
+  </nb-card-header>
+  <nb-card-body>
+
+    <form [formGroup]="clienForm" class="form-inline">
+
+      <input type="text" nbInput fullWidth id="clientid" formControlName="client_status" placeholder="Client ID">
+      <input type="text" nbInput fullWidth id="fname" formControlName="FirstName" placeholder="First Name">
+      <input type="text" nbInput fullWidth id="lname" formControlName="LastName" placeholder="Last Name">
+      <input type="text" nbInput fullWidth id="hphone" formControlName="HomePhone" placeholder="Home Phone">
+      <input type="text" nbInput fullWidth id="email" formControlName="Email" placeholder="Email Address">
+      <div *ngIf="clienForm.controls['Email'].errors && !clienForm.controls['Email'].pristine"
+        class="text-danger error">
+
+        <div [hidden]="!clienForm.controls['Email'].errors?.pattern">
+          Please Enter Valid Email
+        </div>
+      </div>
+      <input type="text" nbInput fullWidth id="Dagent" formControlName="DSCAgentName" placeholder="Dsc Agent">
+      <input type="text" nbInput fullWidth id="negotiator" formControlName="NegotiatorName" placeholder="Negotiator">
+      <input type="text" nbInput id="State" formControlName="State" placeholder="State">
+      Time Zone:<nb-select formControlName="Timezone">
+        <nb-option *ngFor="let client of Timezone" [value]="client.id"> {{ client.value }}</nb-option>
+      </nb-select>
+
+      <button type="submit" nbButton status="primary" (click)="btnsearch()">search</button>&nbsp;
+      <button type="submit" nbButton status="success">Reset</button>
+
+      <!-- <table>
+                    <tr>
+                      <td> <input type="text" nbInput fullWidth id="clientid" formControlName="client_status"
+                          placeholder="Client ID"></td>
+                      <td><input type="text" nbInput fullWidth id="fname" formControlName="FirstName"
+                          placeholder="First Name"></td>
+                      <td><input type="text" nbInput fullWidth id="lname" formControlName="LastName" placeholder="Last Name">
+                      </td>
+                      <td><input type="text" nbInput fullWidth id="hphone" formControlName="HomePhone"
+                          placeholder="Home Phone"></td>
+                      <td><input type="text" nbInput fullWidth id="email" formControlName="Email" placeholder="Email Address">
+                        <div *ngIf="clienForm.controls['Email'].errors && !clienForm.controls['Email'].pristine"
+                          class="text-danger error">
+                         
+                          <div [hidden]="!clienForm.controls['Email'].errors?.pattern">
+                            Please Enter Valid Email 
+                          </div>
+                        </div>
+                
+                      </td>
+                      <td><input type="text" nbInput fullWidth id="Dagent" formControlName="DSCAgentName"
+                        placeholder="Dsc Agent"></td>
+                        <td><input type="text" nbInput fullWidth id="negotiator" formControlName="NegotiatorName"
+                          placeholder="Negotiator"></td>
+                    </tr>
+                    <tr>
+                      
+                      
+                      <td><input type="text" nbInput id="State" formControlName="State" placeholder="State">
+                      </td>
+                      <td> Time Zone:<nb-select formControlName="Timezone">
+                          <nb-option *ngFor="let client of Timezone" [value]="client.id"> {{ client.value }}</nb-option>
+                        </nb-select>
+                      </td>
+                      <td>
+                        <button type="submit" nbButton status="primary" (click)="btnsearch()">search</button>&nbsp;
+                        <button type="submit" nbButton status="success">Reset</button>
+                      </td>
+                    </tr>
+                </table> -->
+
+
+
+
+    </form>
+    <ng2-smart-table [settings]="settings" [source]="_clientsInfo" (deleteConfirm)="onDeleteConfirm($event)"
+      [ngClass]="{clienttable:_clientsInfo.length>6}">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>
